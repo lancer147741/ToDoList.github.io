@@ -1,0 +1,3 @@
+/* lib/todomvc-app.css — оригинальный из репозитория */
+.new-todo { position: absolute; top: -1px; right: 0; padding: 16px 16px 16px 60px; border: none; background: rgba(0, 0, 0, 0.003); box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03); }
+.todo-list li input[type="checkbox"] { margin: 0 0 0 4px; }
