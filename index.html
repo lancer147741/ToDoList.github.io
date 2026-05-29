@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDoList — TodoMVC в Vanilla JS</title>
+  <link rel="stylesheet" href="lib/todomvc-common-base.css">
+  <link rel="stylesheet" href="lib/todomvc-app.css">
+  <link rel="stylesheet" href="lib/index.css">
+  <script src="lib/elmish.js"></script>
+  <script src="lib/todo-app.js"></script>
+</head>
+<body>
+  <section class="todoapp">
+    <header class="header">
+      <h1>ToDoList</h1>
+      <input id="new-todo" class="new-todo" placeholder="Что нужно сделать?">
+    </header>
+    <section class="main">
+      <ul id="todo-list" class="todo-list"></ul>
+    </section>
+    <footer class="footer">
+      <span id="footer-info" class="todo-count">0 задач</span>
+      <ul class="filters">
+        <li><a href="#" data-filter="all" class="selected">Все</a></li>
+        <li><a href="#" data-filter="active">Активные</a></li>
+        <li><a href="#" data-filter="completed">Завершённые</a></li>
+      </ul>
+      <button id="clear-completed" class="clear-completed">Очистить завершённые</button>
+    </footer>
+  </section>
+
+  <script src="lib/elmish.js"></script>
+  <script src="lib/todo-app.js"></script>
+</body>
+</html>
